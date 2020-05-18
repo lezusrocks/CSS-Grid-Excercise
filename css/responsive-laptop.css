@@ -1,0 +1,107 @@
+.container {
+		margin: 0;
+		grid-template-areas: 
+		"product product product product"
+		"cloud cloud sephiroth sephiroth"
+		"aerith aerith playstation squareenix"
+		"tifa tifa barret barret";
+}
+	.container > div {
+		display: grid;
+		min-height: 400px;
+		align-items: center;
+	}
+	
+	/* PRODUCT */
+	.item1 div {
+		display: flex;
+		align-items: center;
+		max-width: 60%;
+		padding: 5%;
+		text-align: left;
+	}
+	
+	.item1 div img {
+		max-width: 25%;
+		margin: 0;
+	}
+
+	.item1 div .copy {
+		display: block;
+		width: 75%;
+	}
+
+	/* CLOUD */
+	.item2 div {
+		width: 100%;
+		padding: 5% 45% 5% 10%;
+	}
+
+	/* SEPHIROTH */
+	.item3 div {
+		padding: 5% 40% 5% 10%;
+	}
+
+	.item3 div img {
+		left: inherit;
+		right: 0;
+		transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+	}
+
+	/* TIFA */
+	.item4 {
+		background-image: linear-gradient(-225deg, #D4F6FF 0%, #00020D 100%);
+	}
+	
+	.item4 div {
+		padding: 5% 45% 5% 10%;
+	}
+
+	.item4 div img {
+		left: inherit;
+		right: 0;
+		width: 40%;
+		transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+	}
+
+	/* PLAYSTATION */
+	.item5 img {
+		max-width: 40%;
+	}
+
+	/* SQUARE ENIX */
+	.item6 img {
+		width: 75%;
+	}
+
+	/* AERITH */
+	.item7 div {
+		padding: 5% 45% 5% 10%;
+	}
+
+	.item7 div img {
+		left: inherit;
+		right: 5%;
+		width: 40%;
+		transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+	}
+
+	/* BARRET */
+	.container .item8 {
+		align-items: center;
+	}
+
+	.item8 div {
+		padding: 5% 45% 5% 10%;
+	}
+
+	.item8 div img {
+		left: inherit;
+		right: 0;
+		width: 50%;
+		transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+	}

@@ -1,0 +1,15 @@
+/* ========================================================================== *\
+   BREAKPOINTS
+\* ========================================================================== */
+
+@import "responsive-mobile.css" screen and (max-width: 600px);
+@import "responsive-tablet-portrait.css" screen and (min-width:601px) and (max-width:800px);
+@import "responsive-tablet-landscape.css" screen and (min-width:801px) and (max-width:1140px);
+@import "responsive-laptop.css" screen and (min-width:1141px) and (max-width:1750px);
+
+/* ========================================================================== *\
+   IMAGE RESIZE
+\* ========================================================================== */
+
+img{max-width: 100%; height: auto !important;}
+img{ -ms-interpolation-mode: bicubic; }
